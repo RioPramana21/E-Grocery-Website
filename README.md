@@ -1,4 +1,4 @@
-# E-Grocery Website (Laravel) — Portfolio Project
+# E-Grocery Website (Laravel)
 
 E-Grocery Website is a web-based grocery store application built using Laravel.  
 It was developed to demonstrate full-stack development fundamentals such as:
