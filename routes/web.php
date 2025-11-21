@@ -3,6 +3,7 @@
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\ItemController;
 use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MaintenanceController;
@@ -26,6 +27,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [Controller::class, 'index'])->middleware('guest')->name('indexpage');
 Route::get('/home', [Controller::class, 'home'])->middleware('auth')->name('homepage');
 Route::get('/home/{item}', [Controller::class, 'show'])->middleware('auth')->name('view-item');
+
+// Route::get(uri: '/item_management', action: [ItemController::class, 'index'])
+// ->middleware('auth')
+// ->name('item_management_view');
+// Route::post(uri: '/item_management/new_item', action: [ItemController::class, 'create'])
+// ->middleware('auth')
+// ->name('new_item');
 
 Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);
