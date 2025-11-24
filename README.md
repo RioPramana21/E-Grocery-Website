@@ -109,7 +109,31 @@ Follow these steps to set up the project locally:
 * **User:** `user@gmail.com` | Password: `User123!`
 
 ## Demo Screenshots
-*(To be added...)*
+
+### Homepage
+<p align="center">
+  <img src="README%20images/homepage.png" width="800">
+</p>
+
+### Login Page
+<p align="center">
+  <img src="README%20images/login_page.png" width="800">
+</p>
+
+### Profile View
+<p align="center">
+  <img src="README%20images/profile_view.png" width="800">
+</p>
+
+### Shopping Cart
+<p align="center">
+  <img src="README%20images/shopping_cart.png" width="800">
+</p>
+
+### Unregistered User View
+<p align="center">
+  <img src="README%20images/unregistered_user_view.png" width="800">
+</p>
 
 ## API / Route Examples
 
